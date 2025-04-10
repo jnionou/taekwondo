@@ -13,17 +13,17 @@
     </style>
 </head>
 <body>
-    <p id="message">🔮 태권도의 강점과 약점은 🔮</p>
+    <p id="message">🔮 태권도에서 겨루기를 할때는.. 🔮</p>
     <button onclick="showRandomMessage()">눌러서 확인하기</button>
 
     <script>
         function showRandomMessage() {
             const messages = [
-                "기다려 보세요.",
-                "안 돼요!",
-                "한 번 더 해보세요.",
-                "좋은 생각이에요!",
-                "다시 시도해보세요.",
+                "상대방의 팔과 발이 같이 보이는 가운데를 봐",
+                "발이 나오는걸 끝까지 봐야돼",
+                "절때 쫄면안돼",
+                "가장 중요한건 기세야 눌리지 마",
+                "자신감이 가장 중요해",
                 
             ];
             document.getElementById("message").innerText = messages[Math.floor(Math.random() * messages.length)];
